@@ -19,5 +19,5 @@ Key Findings (High-level)
 - B-tree indexes were generally more suitable for higher-cardinality attributes and showed stable behaviour across certain tasks.
 - Join time stayed largely unchanged across index types in this workload, suggesting that join performance was shaped more by fact table size and optimizer choices than by single-column index selection.
 
-Reproducibility Statement
+Reproducibility Statement:
 To support reproducibility of the reported results, the schema creation scripts, data-generation scripts, benchmark queries (aggregation/filter/join), index creation scripts (B-tree/Bitmap), captured performance outputs, and Python visualisation code are intended to be included in this public repository so that others can rerun the same workload and validate the findings under the same index conditions.
