@@ -2,6 +2,7 @@
 Controlled Oracle Database experiment comparing B-tree vs Bitmap indexes for OLAP-style workloads (aggregation, filtering, joins), analysing query runtime, attribute cardinality effects, and index overhead (storage + build time).
 
 Project Overview
+
 This project evaluates the efficiency of B-tree and Bitmap indexing strategies for large-scale analytical processing in an Oracle Database environment. A controlled star-schema dataset was built and tested using a repeatable workload of aggregation, filtering, and join queries. Performance was measured using query execution time, the impact of attribute cardinality (low vs high), and practical index overhead factors such as index build time and storage requirements.
 
 Experimental Setup
